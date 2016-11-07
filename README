@@ -1,0 +1,8 @@
+FUNCITON
+===========
+The http_server.py and http_client.py are server and client side scripts to run to create a reverse shell, that communicate over http, hence the traffic can pass trough most firewalls.
+
+HOW TO RUN THE SCRIPTS
+======================
+Make sure you have python 2 installed and then use the python command to run the scripts i.e. python http_server.py and python http_client.py.
+
