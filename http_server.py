@@ -36,7 +36,7 @@ class ServerHandler(BaseHTTPServer.BaseHTTPRequestHandler):
                     s.end_headers()
             except Exception as e:
                 print e
-                return
+            return
                                            
                 
         s.send_response(200)
