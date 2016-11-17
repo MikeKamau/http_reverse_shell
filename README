@@ -1,8 +1,13 @@
 FUNCITON
-===========
+======================
 The http_server.py and http_client.py are server and client side scripts to run to create a reverse shell, that communicate over http, hence the traffic can pass trough most firewalls.
 
 HOW TO RUN THE SCRIPTS
 ======================
 Make sure you have python 2 installed and then use the python command to run the scripts i.e. python http_server.py and python http_client.py.
+
+ENHANCEMENTS
+======================
+Added a new file iehttp_client that uses Internet Explorer to send data to the server. This will bypass firewalls that allow only certain applications to initiate connections, as IE is whitelisted by default.
+The script utilizes the pywin32 library.
 
